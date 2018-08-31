@@ -1,0 +1,10 @@
+= Exercise 1-1
+
+* Removing `#include <stdio.h>` results in compiler warnings, because it
+  notices that we're using `printf` like if it was a built-in function, but
+  it's not.
+* Leaving out the `\n` after the `hello, world` string ends up not printing a
+  newline to the terminal when the program runs.
+* Removing the `main` function name, the parenthesis after the function name,
+  the semi-colon after the `printf` function call, either `"` (double-quotes),
+  etc. all result in compilation error.

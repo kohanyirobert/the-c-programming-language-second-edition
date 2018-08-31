@@ -1,0 +1,32 @@
+= About
+
+Solutions for exercises in _The C Programming Language, Second Edition_.
+
+== Requirements
+
+* https://cmake.org[CMake] (3.12.x)
+* https://www.python.org[Python] (3.x)
+
+== Building
+
+```
+mkdir build
+cd build
+cmake -G 'Unix Makefiles' ..
+make
+ctest
+```
+
+== Exercises
+
+=== Chapter 1
+
+* link:chapter-1/exercise-1-1/README.adoc[Exercise 1-1]
+
+== Links
+
+* https://web.archive.org/web/20150205025553/http://cm.bell-labs.com/cm/cs/cbook/2ediffs.html[Errata for _The C Programming Language, Second Edition_]
+* https://www.eskimo.com/~scs/cclass/krnotes/[C Programming Notes]
+* https://clc-wiki.net/wiki/K%26R2_solutions[K&R Solutions]
+* http://www.learntosolveit.com/cprogramming/index.html[Learn to Solve It]
+* https://www.bamsoftware.com/computers/tcpl-answers.html[Answers to the exercies in _The C Programming Language, Second Edition_]
