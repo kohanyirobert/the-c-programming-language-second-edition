@@ -1,0 +1,5 @@
+= Exercise 1-4
+
+* The `celsius` variable can be incremented terser with the `+=` operator.
+* Important to note that there's no such thing as an `=+` operator, it's
+  parsed as two separate things, `=` (assignment), then `+` (unary plus).
