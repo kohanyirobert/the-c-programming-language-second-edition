@@ -1,0 +1,21 @@
+= Exercise 1-2
+
+* Unknown escape sequences raise a waring during compilation.
+  Such sequences are
+** `\8` and `\9`
+** `\c` and `\d`
+** from `\g` up to `\m`
+** `\o`, `\p` and `\q`
+** `\s`
+** `\w`, `\y` and `\z`.
+* `\0` signals the end of a string as such `printf` only prints a string
+  argument up to this character and discards the rest.
+* `\u` cannot be used alone as an escape character because it used to specify
+  universal character names.
+  The compile looks for more characters after `\u`.
+  When it doesn't find any the compilation fails.
+* `\x` is used to specify hexadecimal numbers.
+  When the compiler founds this escape sequence without following hex digits
+  the compilation fails.
+* Well-known escape sequences like `\a`, `\f`, `\n`, `\r`, etc. are
+  https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences[listed here].
