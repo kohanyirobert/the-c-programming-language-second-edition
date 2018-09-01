@@ -1,0 +1,5 @@
+= Exercise 1-3
+
+* Printing the header to properly align with the numbers can be done using
+  `printf` alignment specifiers, only we need to use `%c` and supply
+  character constants (`'F'` and `'C'`) as arguments like `printf("%3c %6c\n", 'F', 'C')`.
