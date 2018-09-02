@@ -21,9 +21,9 @@ EXPECTED = '''  F      C
 '''
 
 executable_path = argv[1]
-completed_process = run([executable_path], stdout=PIPE)
+completed_process = run([executable_path], stdout=PIPE, encoding='utf8', universal_newlines=True)
 
-output = completed_process.stdout.decode('utf8')
+output = completed_process.stdout
 if output != EXPECTED:
     print("Output differs from expected.", file=stderr)
     exit(1)
