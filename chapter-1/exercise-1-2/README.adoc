@@ -4,6 +4,7 @@
   Such sequences are
 ** `\8` and `\9`
 ** `\c` and `\d`
+** `\e` (only when compiled with `cl`)
 ** from `\g` up to `\m`
 ** `\o`, `\p` and `\q`
 ** `\s`
