@@ -1,3 +1,9 @@
+:uri-c-programming-notes: https://www.eskimo.com/~scs/cclass/krnotes/
+:uri-errata: https://web.archive.org/web/20150205025553/http://cm.bell-labs.com/cm/cs/cbook/2ediffs.html
+:uri-k-and-r-solutions: https://clc-wiki.net/wiki/K%26R2_solutions
+:uri-learn-to-solve-it: http://www.learntosolveit.com/cprogramming/index.html
+:uri-answers: https://www.bamsoftware.com/computers/tcpl-answers.html
+
 = About
 
 Solutions for exercises in _The C Programming Language, Second Edition_.
@@ -52,8 +58,8 @@ It'll setup the correct `PATH` so that MSBuild could be invoked easily.
 
 == Links
 
-* https://www.eskimo.com/~scs/cclass/krnotes/[C Programming Notes]
-* https://web.archive.org/web/20150205025553/http://cm.bell-labs.com/cm/cs/cbook/2ediffs.html[Errata for _The C Programming Language, Second Edition_]
-* https://clc-wiki.net/wiki/K%26R2_solutions[K&R Solutions]
-* http://www.learntosolveit.com/cprogramming/index.html[Learn to Solve It]
-* https://www.bamsoftware.com/computers/tcpl-answers.html[Answers to the exercies in _The C Programming Language, Second Edition_]
+* {uri-c-programming-notes}[C Programming Notes]
+* {uri-errata}[Errata for _The C Programming Language, Second Edition_]
+* {uri-k-and-r-solutions}[K&R Solutions]
+* {uri-learn-to-solve-it}[Learn to Solve It]
+* {uri-answers}[Answers to the exercies in _The C Programming Language, Second Edition_]
