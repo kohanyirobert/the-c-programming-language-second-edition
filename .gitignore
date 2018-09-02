@@ -1,2 +1,4 @@
 build
+unix-build
+windows-build
 *.swp
