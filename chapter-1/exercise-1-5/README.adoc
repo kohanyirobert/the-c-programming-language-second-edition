@@ -1,4 +1,5 @@
 = Exercise 1-5
 
 * The `fahr` variable is declared to be an `int` instead of a `float` now.
-  It doesn't matter, because the _lower_ 
+  It doesn't matter, because the `int` will be _promoted_ to `float` in the
+  expression.
