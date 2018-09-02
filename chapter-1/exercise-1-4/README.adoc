@@ -1,5 +1,8 @@
 = Exercise 1-4
 
-* The `celsius` variable can be incremented terser with the `+=` operator.
+* `celsius` can be declared as an `int`.
+  When it's a `float` warnings maybe raised by some compilers about
+  possible conversion errors.
+* `celsius` can be incremented terser with the `+=` operator.
 * Important to note that there's no such thing as an `=+` operator, it's
   parsed as two separate things, `=` (assignment), then `+` (unary plus).
