@@ -11,6 +11,7 @@
 ** `\w`, `\y` and `\z`.
 * `\0` signals the end of a string as such `printf` only prints a string
   argument up to this character and discards the rest.
+  Also it signifies the start of octal integer constant.
 * `\u` cannot be used alone as an escape character because it used to specify
   universal character names.
   The compile looks for more characters after `\u`.
