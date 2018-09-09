@@ -1,0 +1,9 @@
+--style=kr
+--indent=tab=8
+--mode=c
+--suffix=none
+--recursive
+--exclude=build
+--exclude=unix-build
+--exclude=windows-build
+--ignore-exclude-errors

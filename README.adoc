@@ -8,6 +8,9 @@
 
 Solutions for exercises in _The C Programming Language, Second Edition_.
 
+NOTE: Code is formatted using http://astyle.sourceforge.net[AStyle].
+Use `astyle --project \*.c` to format all source files.
+
 == Requirements
 
 * https://cmake.org[CMake] (3.12.x)
