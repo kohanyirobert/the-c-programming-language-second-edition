@@ -58,6 +58,8 @@ It'll setup the correct `PATH` so that MSBuild could be invoked easily.
 * link:chapter-1/exercise-1-3/README.adoc[Exercise 1-3]
 * link:chapter-1/exercise-1-4/README.adoc[Exercise 1-4]
 * link:chapter-1/exercise-1-5/README.adoc[Exercise 1-5]
+* link:chapter-1/exercise-1-5/README.adoc[Exercise 1-6]
+* link:chapter-1/exercise-1-5/README.adoc[Exercise 1-7]
 
 == Links
 

@@ -1,0 +1,8 @@
+= Exercise 1-7
+
+* `EOF` on my platform is `-1`.
+* The latest standard says that `EOF`
+____
+expands to an integer constant expression, with type *int* and a negative value
+____
+so one should use the `%d` format specifier with `printf`.
