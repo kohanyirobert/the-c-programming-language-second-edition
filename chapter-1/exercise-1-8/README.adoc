@@ -1,0 +1,4 @@
+= Exercise 1-8
+
+* Counters can be `unsigned` since they start from zero and will never decrease.
+* Thus for `printf` the `%u` format specifier is used.
