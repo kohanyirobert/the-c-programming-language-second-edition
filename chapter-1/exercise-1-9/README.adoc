@@ -1,0 +1,6 @@
+= Exercise 1-9
+
+* `bool` is only defined by the C99 standard, it wasn't so in C90,
+  hence the `unsigned` usage.
+* The `gcc` flag `-Wc90-c99-compat` supposed to warn about using features
+  not present in C90, but for some reason it doesn't do anything.
