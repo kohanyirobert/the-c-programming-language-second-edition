@@ -1,0 +1,5 @@
+= Exercise 1-10
+
+* In a modern terminal pressing backspace won't generate the `\b` character.
+  https://stackoverflow.com/a/23958923/433835[Described here] the `stty`
+  command can be used to remedy this and pressing `Ctrl+h`.
