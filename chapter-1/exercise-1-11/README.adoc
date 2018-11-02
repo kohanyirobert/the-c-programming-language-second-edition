@@ -1,0 +1,22 @@
+= Exercise 1-11
+
+"`What kinds of input are most likely to uncover bugs if there are any?`" meaning how to test the character, word and line program.
+
+The program can only read its standard input, meaning a user is the one supplying input or we feed a file to it.
+In either case we talk about characters after each other.
+
+The input can be
+
+* empty.
+* a single word.
+* a single line with whitespaces only.
+* a single line of text without whitespaces.
+* a single line of text with whitespaces.
+* multiple lines of text each with a single word.
+* multiple lines of whitespaces only.
+* multiple lines of text without whitespaces.
+* multiple lines of text with whitespaces.
+
+Replace multiple with as many as the maximum value of an `unsigned short` or `unsigned int`, etc., to test for overflow problems and robustness
+
+IMPORTANT: Must we also consider the character encoding of the source? If yes then if it contains characters other than ASCII we have a problem as the program will count more characters in the input then what it actually contains. Words and lines will be counted correctly still.
